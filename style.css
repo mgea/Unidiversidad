@@ -1,21 +1,21 @@
    .flashcard-grid {
       display: flex;
       flex-wrap: wrap;
-      gap: 20px;
+      gap: 50px;
       justify-content: center;
     } 
 
 
    .flashcard {
-      width: 350px;
-      height: 350px;
+      width: 450px;
+      height: 450px;
       perspective: 1000px;
     }
 
     .card-inner {
       position: relative;
-      width: 350px;
-      height: 350px;
+      width: 450px;
+      height: 450px;
       text-align: center;
       transition: transform 0.6s;
       transform-style: preserve-3d;
@@ -28,14 +28,14 @@
     .card-front,
     .card-back {
       position: absolute;
-      width: 350px;
-      height: 350px;
+      width: 450px;
+      height: 450px;
       backface-visibility: hidden;
       display: flex;
       align-items: center;
       justify-content: center;
       font-family: sans-serif;
-      font-size: 1.2rem;
+      font-size: 2rem;
       border: 1px solid #ccc;
       border-radius: 8px;
     }
